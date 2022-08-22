@@ -5,7 +5,7 @@ info:
 servers:
   - url: 'https://petstore.swagger.io/v1'
 paths:
-    /pathss-1-1:
+    /pathss-1-1-1:
      get:
       summary: 'Sample endpoint: Returns details about a particular users'
       operationId: listUser
