@@ -1,0 +1,14 @@
+id = 98f5268d-f83b-485e-9007-e5f75792f876
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"index.proto","metaData":{}}
+
+[relations.apiDefinition.metaData]
