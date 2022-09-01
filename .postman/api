@@ -9,7 +9,7 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index-3.wsdl","metaData":{}}
+files[] = {"path":"index-4.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = wsdl:2
