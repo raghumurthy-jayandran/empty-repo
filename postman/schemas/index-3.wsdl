@@ -8,7 +8,7 @@
   <documentation> Add your service description here </documentation>
 
   <!-- Abstract type -->
-  <types>
+  <types> 
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
         xmlns="http://www.tmsws.com/wsdl20sample"
         targetNamespace="http://www.example.com/wsdl20sample">
