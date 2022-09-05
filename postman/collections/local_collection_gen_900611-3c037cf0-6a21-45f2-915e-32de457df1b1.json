@@ -1,0 +1,123 @@
+{
+	"item": [
+		{
+			"id": "f77a07ed-ea3d-419f-ae2c-81b11def0789",
+			"name": "/user/:userId",
+			"request": {
+				"name": "/user/:userId",
+				"description": {
+					"content": "Sample endpoint: Returns details about a particular user",
+					"type": "text/plain"
+				},
+				"url": {
+					"path": [
+						"user",
+						":userId"
+					],
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [],
+					"variable": [
+						{
+							"disabled": false,
+							"type": "any",
+							"value": "22741583",
+							"key": "userId",
+							"description": "(Required) ID of the user"
+						}
+					]
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"method": "GET",
+				"auth": null
+			},
+			"response": [
+				{
+					"id": "60d31723-cb7f-40c8-a4d8-571852e79b4a",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"user",
+								":userId"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [],
+							"variable": [
+								{
+									"disabled": false,
+									"type": "any",
+									"value": "22741583",
+									"key": "userId",
+									"description": "(Required) ID of the user"
+								}
+							]
+						},
+						"header": [
+							{
+								"description": {
+									"content": "Added as a part of security scheme: basic",
+									"type": "text/plain"
+								},
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"method": "GET",
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "[\n  {\n    \"name\": \"aliquip\",\n    \"id\": 61946155,\n    \"tag\": \"labore\"\n  },\n  {\n    \"name\": \"sed in\",\n    \"id\": 30548448,\n    \"tag\": \"voluptate consequat ad\"\n  }\n]",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				}
+			],
+			"event": []
+		}
+	],
+	"event": [],
+	"variable": [
+		{
+			"type": "string",
+			"value": "http://localhost:3000/api",
+			"key": "baseUrl"
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>"
+			}
+		]
+	},
+	"info": {
+		"_postman_id": "3c037cf0-6a21-45f2-915e-32de457df1b1",
+		"name": "local_collection_gen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"description": {
+			"content": "Enter description about your API here\n\nContact Support:\n Name: Your name",
+			"type": "text/plain"
+		}
+	}
+}
