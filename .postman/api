@@ -15,4 +15,4 @@ rootDirectory = postman/schemas
 files[] = {"path":"wsdl1_1.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = wsdl:2
+type = wsdl:1
