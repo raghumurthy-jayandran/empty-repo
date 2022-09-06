@@ -14,4 +14,4 @@ rootDirectory = postman/schemas
 files[] = {"path":"OAS3_0.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:3
+type = openapi:3_1
