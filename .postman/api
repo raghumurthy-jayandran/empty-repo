@@ -4,15 +4,11 @@ id = dcddf24c-9f7f-416b-963c-6da00fc3f032
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"b9499c23-cf4f-4ee6-98fa-6a82380bb151","path":"local_900611-b9499c23-cf4f-4ee6-98fa-6a82380bb151.json","metaData":{}}
-files[] = {"id":"38981a21-41f8-47fa-8f05-9b9e4f5ef83c","path":"Service1_900611-38981a21-41f8-47fa-8f05-9b9e4f5ef83c.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"wsdl1.1.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = wsdl:1
-rootFiles[] = wsdl1.1.wsdl

@@ -5,7 +5,7 @@
     xmlns:wsoap="http://schemas.xmlsoap.org/wsdl/soap/"
     targetNamespace="http://www.tmsws.com/wsdl20sample">
 
-  <documentation> Add your service description here -main </documentation>
+  <documentation> Add your service description here -main  - post intgeration changes</documentation>
 
   <!-- Abstract type -->
   <types>
