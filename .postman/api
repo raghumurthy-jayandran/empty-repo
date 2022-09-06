@@ -13,4 +13,4 @@ rootDirectory = postman/schemas
 files[] = {"path":"ram1_0.raml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = raml:1
+type = raml:0_8
