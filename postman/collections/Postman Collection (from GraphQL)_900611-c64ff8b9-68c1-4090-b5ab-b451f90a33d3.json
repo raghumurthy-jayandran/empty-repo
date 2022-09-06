@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "c64ff8b9-68c1-4090-b5ab-b451f90a33d3",
+		"name": "Postman Collection (from GraphQL)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "900611-c64ff8b9-68c1-4090-b5ab-b451f90a33d3"
+	},
+	"item": [
+		{
+			"name": "mutations",
+			"item": [
+				{
+					"name": "addUser",
+					"id": "cc4ac792-cabe-480f-ac2e-2b4b5bd6f250",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql"
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "ef4f4d82-bca9-4f94-b0d7-1ee37bb4cfae"
+		},
+		{
+			"name": "queries",
+			"item": [
+				{
+					"name": "user",
+					"id": "7fbe4d77-a75a-4526-a10e-b06ba23d9e6a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql"
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "460a3680-e3d2-4533-b9f7-3780c05f669a"
+		}
+	],
+	"variable": [
+		{
+			"id": "url",
+			"key": "url",
+			"value": "",
+			"type": "any",
+			"description": "URL for the request."
+		}
+	]
+}

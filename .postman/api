@@ -1,0 +1,16 @@
+id = f65d4069-e4e8-40ba-9a23-8df4f837faf9
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"c64ff8b9-68c1-4090-b5ab-b451f90a33d3","path":"Postman Collection (from GraphQL)_900611-c64ff8b9-68c1-4090-b5ab-b451f90a33d3.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"User- Graphql.graphql","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = graphql
