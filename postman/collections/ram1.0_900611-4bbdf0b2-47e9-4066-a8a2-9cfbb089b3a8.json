@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "4bbdf0b2-47e9-4066-a8a2-9cfbb089b3a8",
+		"name": "ram1.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "900611-4bbdf0b2-47e9-4066-a8a2-9cfbb089b3a8"
+	},
+	"item": [
+		{
+			"name": "/users",
+			"id": "0267011a-b0e2-401b-9978-fa7f2e8dca76",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/users?name=John",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "John"
+						}
+					]
+				},
+				"description": "List all Users matching query criteria."
+			},
+			"response": [
+				{
+					"id": "1d0fda32-ecde-4164-8e1a-39fd546ca107",
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/users?name=John",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "John"
+								}
+							]
+						},
+						"description": "List all Users matching query criteria."
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": 1,\n  \"name\": \"John\"\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "9bf018aa-485e-43c8-86d7-6cb66fcebe04",
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
