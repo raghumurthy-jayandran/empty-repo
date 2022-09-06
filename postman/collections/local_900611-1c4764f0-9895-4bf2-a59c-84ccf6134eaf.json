@@ -1,0 +1,81 @@
+{
+	"item": [
+		{
+			"id": "66d6fa64-be79-4325-8e38-1b936857e282",
+			"item": [
+				{
+					"id": "deef6791-8201-4861-8987-c46990422ab6",
+					"name": "addUser",
+					"request": {
+						"url": {
+							"host": [
+								"{{url}}"
+							],
+							"query": [],
+							"variable": []
+						},
+						"method": "POST",
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation addUser ($name: String!) {\n    addUser (name: $name) {\n        id\n        name\n    }\n}",
+								"variables": "{\n  \"name\": \"\"\n}"
+							}
+						}
+					},
+					"response": [],
+					"event": []
+				}
+			],
+			"event": [],
+			"name": "mutations"
+		},
+		{
+			"id": "0aef6ff1-425c-4ba9-8640-c650fed41cae",
+			"item": [
+				{
+					"id": "662253ef-4aa1-441f-b276-25d9d22d6feb",
+					"name": "user",
+					"request": {
+						"url": {
+							"host": [
+								"{{url}}"
+							],
+							"query": [],
+							"variable": []
+						},
+						"method": "POST",
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query user ($id: String) {\n    user (id: $id) {\n        id\n        name\n    }\n}",
+								"variables": "{\n  \"id\": \"\"\n}"
+							}
+						}
+					},
+					"response": [],
+					"event": []
+				}
+			],
+			"event": [],
+			"name": "queries"
+		}
+	],
+	"event": [],
+	"variable": [
+		{
+			"id": "url",
+			"description": {
+				"content": "URL for the request.",
+				"type": "text/plain"
+			},
+			"type": "any",
+			"value": ""
+		}
+	],
+	"info": {
+		"_postman_id": "1c4764f0-9895-4bf2-a59c-84ccf6134eaf",
+		"name": "local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	}
+}
