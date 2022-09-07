@@ -12,7 +12,8 @@ files[] = {"id":"41b54780-7b06-447f-b4e2-e78d7bacef2d","path":"local_900611-41b5
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"raml-0_8.raml","metaData":{}}
+files[] = {"path":"index.raml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = raml:0_8
+rootFiles[] = index.raml
