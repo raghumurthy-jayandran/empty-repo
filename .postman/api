@@ -13,6 +13,7 @@ files[] = {"id":"e4f215f0-0bbd-4462-a488-a4fc3e680bad","path":"StockQuoteService
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index-1.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = wsdl:1
