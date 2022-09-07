@@ -1,0 +1,18 @@
+id = 0953bc2e-0c98-479c-a3f4-e1fd8dcfc63b
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"3c81e388-5c9b-49f9-a593-213f4771ef54","path":"'raml 0.8'_900611-3c81e388-5c9b-49f9-a593-213f4771ef54.json","metaData":{}}
+files[] = {"id":"88fd5635-ee3c-4453-8921-73e8f669b628","path":"1_900611-88fd5635-ee3c-4453-8921-73e8f669b628.json","metaData":{}}
+files[] = {"id":"41b54780-7b06-447f-b4e2-e78d7bacef2d","path":"local_900611-41b54780-7b06-447f-b4e2-e78d7bacef2d.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"raml-0_8.raml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = raml:0_8

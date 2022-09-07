@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "3c81e388-5c9b-49f9-a593-213f4771ef54",
+		"name": "'raml 0.8'",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "900611-3c81e388-5c9b-49f9-a593-213f4771ef54"
+	},
+	"item": [
+		{
+			"name": "/user/:userID",
+			"id": "947cb31c-3f5f-4e20-ae64-98afcd37f7a6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "get",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/:userID",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						":userID"
+					],
+					"variable": [
+						{
+							"id": "c1bbb142-4e1b-48b5-b013-9575a941f2fb",
+							"key": "userID"
+						}
+					]
+				},
+				"description": "\n\nParameters:\n\nuserID: \n\n"
+			},
+			"response": []
+		}
+	]
+}
