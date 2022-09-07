@@ -1,0 +1,134 @@
+{
+	"item": [
+		{
+			"id": "3b769e4e-3a7a-45f9-b04e-6dd576193b1c",
+			"name": "Sample endpoint: Returns details about a particular users",
+			"request": {
+				"name": "Sample endpoint: Returns details about a particular users",
+				"description": {},
+				"url": {
+					"path": [
+						"path"
+					],
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"disabled": false,
+							"key": "id",
+							"value": "-48115301",
+							"description": "(Required) ID of the user"
+						}
+					],
+					"variable": []
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"method": "GET",
+				"auth": null
+			},
+			"response": [
+				{
+					"id": "39fc30ed-28a9-4ae3-8a27-5863b537a355",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"path"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-48115301"
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "ad elit sit voluptate aliquip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"value\": \"reference ../components/user_components.yaml#/components/schemas/User not found in the OpenAPI spec\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				},
+				{
+					"id": "643b5068-7596-41e9-a8e9-11f124af8cd7",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"path"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-48115301"
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"body": {}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"value\": \"reference ../components/user_components.yaml#/components/schemas/Error not found in the OpenAPI spec\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				}
+			],
+			"event": [],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			}
+		}
+	],
+	"event": [],
+	"variable": [
+		{
+			"type": "string",
+			"value": "https://petstore.swagger.io/v1",
+			"key": "baseUrl"
+		}
+	],
+	"info": {
+		"_postman_id": "95755ada-bbd7-4bcb-8ed6-64bcc96e7f37",
+		"name": "local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"description": {
+			"content": "",
+			"type": "text/plain"
+		}
+	}
+}
