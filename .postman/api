@@ -1,0 +1,17 @@
+id = 3e626330-855e-4d44-99c4-c650e11f9bb7
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"71634b02-fa42-4782-99ac-08eebf32d3a9","path":"local_900611-71634b02-fa42-4782-99ac-08eebf32d3a9.json","metaData":{}}
+files[] = {"id":"44069522-3f1a-42f7-a366-a8e42fb6e253","path":"Postman Collection (from GraphQL)_900611-44069522-3f1a-42f7-a366-a8e42fb6e253.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"User- Graphql.graphql","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = graphql
