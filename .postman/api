@@ -10,6 +10,7 @@ files[] = {"id":"68bb4b8a-1f8f-4e1d-9b1a-7b7f4df3fc8c","path":"local_900611-68bb
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.proto","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = wsdl:1
+type = proto:2
