@@ -1,4 +1,4 @@
-id = 0953bc2e-0c98-479c-a3f4-e1fd8dcfc63b
+id = 40ca8ca3-97ac-49c1-9e7e-e79137cca1d2
 
 [relations]
 
@@ -7,13 +7,13 @@ rootDirectory = postman/collections
 files[] = {"id":"3c81e388-5c9b-49f9-a593-213f4771ef54","path":"'raml 0.8'_900611-3c81e388-5c9b-49f9-a593-213f4771ef54.json","metaData":{}}
 files[] = {"id":"88fd5635-ee3c-4453-8921-73e8f669b628","path":"1_900611-88fd5635-ee3c-4453-8921-73e8f669b628.json","metaData":{}}
 files[] = {"id":"41b54780-7b06-447f-b4e2-e78d7bacef2d","path":"local_900611-41b54780-7b06-447f-b4e2-e78d7bacef2d.json","metaData":{}}
+files[] = {"id":"e4f215f0-0bbd-4462-a488-a4fc3e680bad","path":"StockQuoteService_900611-e4f215f0-0bbd-4462-a488-a4fc3e680bad.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.raml","metaData":{}}
+files[] = {"path":"wsdl1_1.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = raml:0_8
-rootFiles[] = index.raml
+type = wsdl:1
