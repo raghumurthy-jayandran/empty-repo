@@ -6,7 +6,7 @@ type User {
   id: String!
   name: String
 }
-type Query {
+type Query{
   user (id: String): User
 }
 type Mutation {
