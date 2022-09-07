@@ -17,5 +17,4 @@ rootDirectory = postman/schemas
 files[] = {"path":"index.wsdl","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = wsdl:1
-rootFiles[] = index.wsdl
+type = wsdl:2
