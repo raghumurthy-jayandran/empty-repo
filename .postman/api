@@ -10,8 +10,8 @@ rootDirectory = postman/collections
 [relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"index.proto","metaData":{}}
-files[] = {"path":"New-5.proto","metaData":{}}
+files[] = {"path":"New folder/New folder/New-5.proto","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = proto:2
-rootFiles[] = New-5.proto
+rootFiles[] = New folder/New folder/New-5.proto
