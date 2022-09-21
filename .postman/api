@@ -14,4 +14,4 @@ files[] = {"path":"New folder/New folder/New-5.proto","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = proto:3
-rootFiles[] = New folder/New folder/New-5.proto
+rootFiles[] = index.proto
