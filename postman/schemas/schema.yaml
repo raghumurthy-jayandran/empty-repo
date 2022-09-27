@@ -1,6 +1,6 @@
 openapi: '3.0.0'
 info:
-  version: 'head'
+  version: 'repo'
   title: 'V9 : OAS 3.0 Git linked'
   description: Buy or rent spacecrafts
 
